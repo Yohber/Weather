@@ -1,0 +1,44 @@
+<Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Météo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Prévision météo</h1>
+<main>
+  <fieldset id="champ">
+    <legend>Localisation:</legend>
+      <div id="centrage">
+        <input type="text" id="ville" placeholder="Entrez votre ville">
+        <input id="valider" type="button" value="VALIDER"  onclick="meteo()" />
+      </div>
+  </fieldset>
+  <div id="container">
+    <fieldset id="champ1">
+      <legend>Temp actuel:</legend>
+        <p id="temperature"></p>
+        <p id="pression"></p>
+        <p id="hygrometrie"></p>
+        <p id="directVent"></p>
+        <p id="forceVent"></p>
+        <img id="icone">
+        <p id="description"></p>
+    </fieldset>
+    <fieldset id="champ2">
+      <legend>Prévision des 24 heures:</legend>
+        <p id="temperature2"></p>
+        <p id="ventMoyen"></p>
+        <p id="directionVent"></p>
+        <p id="pluie"></p>
+        <p id="description2"></p>
+    </fieldset>
+  </div>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
