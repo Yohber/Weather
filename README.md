@@ -6,12 +6,12 @@
 
 ## Pourquoi
 
-Parce qu'i ne sert à rien de réinventer la roue et si des gens trés qualifés ont créé des APIs, autant s'en servir!  
+Parce qu'il ne sert à rien de réinventer la roue et si des gens trés qualifés ont créé des APIs, autant s'en servir!  
 Mais quel API et pourquoi faire? C'est en y réfléchissant que je me suis orienté vers la métérologie, qui collecte vraiment énormément de données!!! &#x1F326;&#xFE0F;
 
 ## Comment
 
-cette même page pourrait être codé plus simplement, mais mon but était de découvrir le fonctionnement des APIs, comment effectuer une demande? Et que recoit on en échange? C'est pourquoi je ne me suis pas servit d'Une mais de Trois APIs.
+Cette même page pourrait être codé plus simplement, mais mon but était de découvrir le fonctionnement des APIs, comment effectuer une demande? Et que recoit on en échange? C'est pourquoi je ne me suis pas servit d'Une mais de Trois APIs.
 
 ## Premiére API
 
@@ -181,4 +181,8 @@ Bernard Yohann, web developpeur junior.
 
 ## Autres créations
 
-vous pouvez voir mes autres codes sur [Mon Github](https://github.com/Yohber "BERNARD Yohann"), ou sur [Mon Codepen](https://codepen.io/Yohber2 "BERNARD Yohann") .
+Vous pouvez voir mes autres codes sur [Mon Github](https://github.com/Yohber "BERNARD Yohann"), ou sur [Mon Codepen](https://codepen.io/Yohber2 "BERNARD Yohann") .
+
+## Essai en direct
+
+Vous pouvez essayer cette page web directement sur [Codepen](https://codepen.io/Yohber2/full/poJYpwm "CODEPEN") .
