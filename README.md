@@ -6,11 +6,12 @@
 
 ## Pourquoi
 
-Parce qu'i ne sert à rien de réinventer la roue et si des gens trés qualifés ont créé des APIs, autant s'en servir! Mais quel API et pourquoi faire? C'est en y réfléchissant que je me suis orienté vers la métérologie, qui collecte vraiment énormément de données!!! &#x1F326;&#xFE0F;
+Parce qu'i ne sert à rien de réinventer la roue et si des gens trés qualifés ont créé des APIs, autant s'en servir!  
+Mais quel API et pourquoi faire? C'est en y réfléchissant que je me suis orienté vers la métérologie, qui collecte vraiment énormément de données!!! &#x1F326;&#xFE0F;
 
 ## Comment
 
-cette même page pourrait être codé plus simplement, mais mon but était de découvrir le fonctionnement des APIs, comment effectuer une demande? et que recoit on en échange? C'est pourquoi je ne me suis pas servit d'Une mais de Trois APIs.
+cette même page pourrait être codé plus simplement, mais mon but était de découvrir le fonctionnement des APIs, comment effectuer une demande? Et que recoit on en échange? C'est pourquoi je ne me suis pas servit d'Une mais de Trois APIs.
 
 ## Premiére API
 
@@ -18,11 +19,11 @@ Il s'agit de openweathermap.org qui va me donner les conditions climatiques actu
 
 ## Deuxiéme API
 
-Il s'agit de api.meteo-concept.com qui va me revoyer les prévisions pour la durée que j'ai choisit, ici ce sera pour les 24 heures à venir. Mais cette demande ne peut se faire uniquement avec le code insee de la ville que vous choisissez, et non le code postale ce qui serait beaucoup trop facile! &#x1F609; C'est pourquoi il y a la troisième API:
+Il s'agit de meteo-concept.com qui va me revoyer les prévisions pour la durée que j'ai choisit, ici ce sera pour les 24 heures à venir. Mais cette demande ne peut se faire uniquement avec le code Insee de la ville que vous choisissez, et non le code postale ce qui serait beaucoup trop facile! &#x1F609; C'est pourquoi il y a la troisième API:
 
 ## Troisième API
 
-Il s'agit de api-adresse.data.gouv.fr qui contient toutes les villes de France et qui fournit des détails sur celles-ci dont le fameux code Insee.
+Il s'agit de adresse.data.gouv.fr qui contient toutes les villes de France et qui fournit des détails sur celles-ci dont le fameux code Insee.
 La demande prend en argument le nom de la ville.
 
 ## Les retours
@@ -73,7 +74,7 @@ cod: 200
 __proto__: Object
 ```
 
-`### Meteo Concept
+### Meteo Concept
 
 Voici un exemple de fichier retourné pour la ville de Bordeaux:
 
@@ -168,11 +169,11 @@ Une fois toutes ces données recueillit, il faut les ordonner, c'est pourquoi j'
 
 ## Fabriqué avec
 
-Cette horloge a été créé en partie sur smartphone grace à l'application anWritterFree, puis finalisé sur sublime Text.
+Cette app a été créé en partie sur smartphone grace à l'application anWritterFree, puis finalisé sur sublime Text.
 
 ## Versions
 
-Il s'agit de la version 2, car la version 1 ne comporté que les conditions météorologiques actuelles. Mais cette version 2 évoluera surement, car les données reçues sont tellement importantes que les façons de les restituer, sont quasiment infinit. Il serait par exemple possible de choisir la durée des prévisions, de calculer le changement de temps, et pourquoi pas d'ajouter une carte de la région avec des icônes comme à la télé! 	&#x1F4FA;
+Il s'agit de la version 2, car la version 1 ne comportait que les conditions météorologiques actuelles. Mais cette version 2 évoluera sûrement, car les données reçues sont tellement importantes que les façons de les restituer, sont quasiment infinit. Il serait par exemple possible de choisir la durée des prévisions, de calculer le changement de temps, et pourquoi pas d'ajouter une carte de la région avec des icônes comme à la télé! 	&#x1F4FA;
 
 ## Auteur
 

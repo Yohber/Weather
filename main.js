@@ -165,7 +165,6 @@ function rechercheCodeInsee() {
       });
 }
 var adressSuccess = function(data2) {
-  console.log(data2);
     globaleInsee=(data2.features[0].properties.citycode);
     seconde();
 }
@@ -174,7 +173,6 @@ function seconde(){
     $.get(url, callBackGetSuccess2).done(function(response) {
       })
       .fail(function() {
-      console.log(status);
         alert( "error" );
       })
       .always(function() {
